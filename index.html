@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AknJ</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon/98.ico">
+  <link rel="stylesheet" type="text/css" href="98ext.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+
+  <script src="src/home.js"></script>
+</head>
+
+<body id="body">
+  <div class="window" style="
+  max-width: fit-content;
+  margin: auto;
+  ">
+    <div class="title-bar">
+      <div class="title-bar-text">
+        Home (index.html)
+      </div>
+      <div class="title-bar-controls">
+        <!-- <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button> -->
+        <button aria-label="Close" id="close-button"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <img src="img/welcome.png" style="image-rendering: pixelated;" alt="Welcome to my Website!">
+      <ul class="tree-view">
+        This is just a website containing all of my
+        <ul>
+          <li>Games</li>
+          <li>Music</li>
+          <li>And just random stuff that I find cool.</li>
+        </ul>
+      </ul>
+      <br>
+      Choose a webpage
+      <br>
+      <select name="Webpage" id="webpage-chooser">
+        <option value="games">
+          Games
+        </option>
+        <option value="music">
+          Music
+        </option>
+        <option value="misc">
+          Miscellaneous
+        </option>
+      </select>
+      <section class="field-row" style="justify-content: flex-end">
+        <!-- <button>
+          Games
+        </button>
+        <button>
+          Music
+        </button>
+        <button>
+          Misc
+        </button> -->
+        <button id="go-button">
+          Go
+        </button>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
