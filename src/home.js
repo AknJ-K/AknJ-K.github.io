@@ -5,19 +5,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
         switch (Chooser.value) {
             case "games":
-                window.location.href = "./games.html"
+                window.location.href = "./games"
                 break;
 
             case "music":
-                window.location.href = "./music.html"
+                window.location.href = "./music"
                 break;
 
             case "misc":
-                window.location.href = "./misc.html"
+                window.location.href = "./misc"
                 break;
 
             default:
-                window.location.href = "./not_found.html"
+                console.warn("yeah this isn't supposed to happen huh\nhome.js uhhhh idk what else")
+                window.location.href = "./404"
                 break;
         }
     }
